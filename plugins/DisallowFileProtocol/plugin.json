@@ -1,0 +1,29 @@
+{
+    "name": "DisallowFileProtocol",
+    "description": "Stops pages with the 'file' protocol from being tracked.",
+    "version": "0.1.0",
+    "theme": false,
+    "require": {
+        "matomo": ">=4.12.0-b1,<5.0.0-b1"
+    },
+    "authors": [
+        {
+            "name": "Matomo",
+            "email": "",
+            "homepage": ""
+        }
+    ],
+    "support": {
+        "email": "",
+        "issues": "",
+        "forum": "",
+        "irc": "",
+        "wiki": "",
+        "source": "",
+        "docs": "",
+        "rss": ""
+    },
+    "homepage": "",
+    "license": "GPL v3+",
+    "keywords": []
+}
