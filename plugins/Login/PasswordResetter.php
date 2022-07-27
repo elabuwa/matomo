@@ -103,6 +103,8 @@ class PasswordResetter
      */
     private $emailFromAddress;
 
+    CONST HASH_ALGO = 'sha3-512';
+
     /**
      * Constructor.
      *
@@ -346,7 +348,7 @@ class PasswordResetter
      */
     protected function hashData($data)
     {
-        return Common::hash($data);
+        return hash(self::HASH_ALGO, $data);
     }
 
     /**
